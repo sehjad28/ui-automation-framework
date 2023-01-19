@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+	<profiles>
+		<profile>
+			<id>CHSArtifactory</id>
+			<repositories>
+				<repository>
+					<id>MavenRepository</id>
+					<url>http://central.maven.org/maven2/</url>
+					<snapshots>
+						<enabled>false</enabled>
+					</snapshots>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+				</repository>
+				<repository>
+					<id>CHSArtifactory</id>
+					<url>http://artifactory.dev.accelerate.cinchhs.com/artifactory/accel-tools-snapshot-local</url>
+					<snapshots>
+						<enabled>true</enabled>
+					</snapshots>
+					<releases>
+						<enabled>true</enabled>
+					</releases>
+				</repository>
+			</repositories>
+		</profile>
+	</profiles>
+	<activeProfiles>
+		<activeProfile>CHSArtifactory</activeProfile>
+	</activeProfiles>
+	<servers>
+		<server>
+			<id>CHSArtifactory</id>
+			<username>automation_user</username>
+			<password>P@ssw0rd1</password>
+		</server>
+	</servers>
+</settings>
