@@ -203,7 +203,7 @@
 						<descriptorRef>jar-with-dependencies</descriptorRef>
 					</descriptorRefs>
 					<appendAssemblyId>false</appendAssemblyId>
-					<finalName>${artifactId}-${version}</finalName>
+					<finalName>${artifactId}-${project.version}</finalName>
 				</configuration>
 				<executions>
 					<execution>
