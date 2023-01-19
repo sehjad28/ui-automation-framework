@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.testautomation.ui</groupId>
-	<artifactId>ui-testautomation-common</artifactId>
+	<artifactId>ui-testautomation-framework</artifactId>
 	<version>1.0.3-SNAPSHOT</version>
     <packaging>jar</packaging>
 
