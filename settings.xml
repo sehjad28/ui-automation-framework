@@ -1,11 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.0.0
+                      http://maven.apache.org/xsd/settings-1.0.0.xsd">
 
-<settings>
+    <activeProfiles>
+        <activeProfile>github</activeProfile>
+    </activeProfiles>
+
+    <profiles>
+        <profile>
+            <id>github</id>
+            <repositories>
+                <repository>
+                    <id>central</id>
+                    <url>https://repo1.maven.org/maven2</url>
+                </repository>
+                <repository>
+                    <id>github</id>
+                    <url>https://maven.pkg.github.com/sehjad28/ui-automation-framework</url>
+                    <snapshots>
+                        <enabled>true</enabled>
+                    </snapshots>
+                </repository>
+            </repositories>
+        </profile>
+    </profiles>
+
     <servers>
         <server>
-            <id>accel-tools-release</id>
-            <username>automation_user</username>
-            <password>3ELjpJW6mR9Np3Pp</password>
+            <id>github</id>
+            <username>sehjad28</username>
+            <password>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</password>
         </server>
     </servers>
 </settings>
