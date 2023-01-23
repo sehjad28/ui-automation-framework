@@ -164,7 +164,7 @@
     <scm>
         <connection>scm:git:${project.scm.url}</connection>
         <developerConnection>scm:git:${project.scm.url}</developerConnection>
-        <url>https://sehjad28@github.com/sehjad28/api-automation-framework</url>
+        <url>https://sehjad28@github.com/sehjad28/ui-automation-framework</url>
         <tag>ui-automation-framework</tag>
     </scm>
 
