@@ -188,12 +188,12 @@ More on Ashot can be found [here](https://github.com/pazone/ashot).
 package com.cinch.agentui.visual.tests;
 
 import com.cinch.agentui.companycreation.HomePage;
-import com.cinch.testautomation.ui.base.BaseTest;
-import com.cinch.testautomation.ui.db.annotations.GetDataFromMongo;
-import com.cinch.testautomation.ui.db.testng.TestNGMongoDataProvider;
-import com.cinch.testautomation.ui.utilities.CustomSoftAssert;
-import com.cinch.testautomation.ui.utilities.Wait;
-import com.cinch.testautomation.ui.visual.ImageComparator;
+import BaseTest;
+import GetDataFromMongo;
+import TestNGMongoDataProvider;
+import CustomSoftAssert;
+import Wait;
+import ImageComparator;
 
 import io.qameta.allure.Description;
 
@@ -278,15 +278,15 @@ package com.cinch.agentui.accessibility.tests;
 
 import java.util.Map;
 
-import com.cinch.testautomation.ui.axe.CheckAxe;
-import com.cinch.testautomation.ui.utilities.CustomSoftAssert;
+import CheckAxe;
+import CustomSoftAssert;
 import com.cinch.agentui.companycreation.DashboardPage;
 import com.cinch.agentui.companycreation.HomePage;
 import com.cinch.agentui.companycreation.SignInPage;
-import com.cinch.testautomation.ui.base.BaseTest;
-import com.cinch.testautomation.ui.db.annotations.GetDataFromMongo;
-import com.cinch.testautomation.ui.db.testng.TestNGMongoDataProvider;
-import com.cinch.testautomation.ui.reporting.TestListener;
+import BaseTest;
+import GetDataFromMongo;
+import TestNGMongoDataProvider;
+import TestListener;
 
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
