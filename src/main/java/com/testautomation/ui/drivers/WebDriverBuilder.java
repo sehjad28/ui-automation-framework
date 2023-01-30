@@ -1,6 +1,6 @@
 /*
  * @author Sampad Rout
- * (C) Copyright 2020 by Cinch Home Services, Inc.
+ *
  */
 
 package com.testautomation.ui.drivers;
@@ -26,7 +26,7 @@ import java.net.URL;
 
 import java.util.concurrent.TimeUnit;
 
-import com.cinch.testautomation.ui.security.*;
+import com.testautomation.ui.security.*;
 
 public class WebDriverBuilder extends DeviceConfig {
 
