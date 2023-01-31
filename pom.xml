@@ -5,7 +5,7 @@
 
 	<groupId>com.testautomation.ui</groupId>
 	<artifactId>ui-testautomation-framework</artifactId>
-	<version>1.0.5</version>
+	<version>1.0.6</version>
 	<packaging>jar</packaging>
 
 	<properties>
@@ -35,7 +35,7 @@
 		<maven-assembly-plugin.version>3.3.0</maven-assembly-plugin.version>
 		<ashot.version>1.5.4</ashot.version>
 		<axe-core.version>4.3.1</axe-core.version>
-		<zap-clientapi.version>1.10.0</zap-clientapi.version>
+		<zap-clientapi.version>1.11.0</zap-clientapi.version>
 	</properties>
 
 	<dependencies>
